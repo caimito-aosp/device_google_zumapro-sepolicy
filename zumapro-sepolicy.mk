@@ -16,6 +16,9 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/google/zumapro-sepolicy/system_ext/pr
 # PowerStats HAL
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
 
+# GoogleBattery
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
+
 # ConnectivityThermalPowerManager
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/connectivity_thermal_power_manager
 
